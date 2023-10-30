@@ -1,0 +1,34 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Knitting Projects</title>
+</head>
+
+<body>
+    <h1>Welcome to My Knitting Projects</h1>
+
+    <p>This is where I will post all of the sweaters and accessories I knit.</p>
+
+    <h2>Boring Sweater</h2>
+
+    <p>Here the first sweater I knit. It was knit using the pattern: Boring Sweater by Boring Knit in Drops Air</p>
+
+    <h3>Elisabeth Blouse</h3>
+
+    <p>This is the second sweater I knit. It was knit using the pattern: Elisabeth Blouse by PetiteKnit in one strand Knitting for Olive Merino and and one strand Knitting for Olive Soft Silk Mohair</p>
+
+    <br>
+
+    <h2>Hosted Pictures</h2>
+    <img src="https://example.com/picture1.jpg" alt="Description of Picture 1">
+    <img src="https://example.com/picture2.jpg" alt="Description of Picture 2">
+
+    <h2>Links to Other Websites</h2>
+    <p>Check out these interesting websites:</p>
+    <ul>
+        <li><a href="https://www.example1.com" target="_blank">Example Website 1</a></li>
+        <li><a href="https://www.example2.com" target="_blank">Example Website 2</a></li>
+    </ul>
+</body>
+
+</html>
