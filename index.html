@@ -1,12 +1,9 @@
 <html>
   <head>
-    <title>
-      Knitting with Chris
-    </title>
-    <link rel="stylesheet" href="dist/css/lightbox.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLY6F1RVB"></script>
+    
+<!-- Analytics -->
+ <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLY6F1RVB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -14,6 +11,12 @@
 
   gtag('config', 'G-EDLY6F1RVB');
 </script>
+
+    <title>
+      Knitting with Chris
+    </title>
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -30,11 +33,91 @@
           <a class="nav-link" href="about.html">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="knit.html">Knitting Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="crochet.html"> Crochet Projects</a>
         </li>
       </ul>
     </div>
   </nav>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLY6F1RVB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EDLY6F1RVB');
+</script>
+
+<script type = "text/javascript">
+
+/***********************************************
+* Display time of last visit script- by JavaScriptKit.com
+* This notice MUST stay intact for use
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and more
+***********************************************/
+
+var days = 730; // days until cookie expires = 2 years.
+var lastvisit=new Object();
+var firstvisitmsg="This is your first visit to this page. Welcome!"; 
+lastvisit.subsequentvisitmsg="Welcome back visitor! Your last visit was on <b>[displaydate]</b>";
+
+lastvisit.getCookie=function(Name){ 
+var re=new RegExp(Name+"=[^;]+", "i"); 
+if (document.cookie.match(re)) 
+return document.cookie.match(re)[0].split("=")[1];
+return''; 
+}
+
+lastvisit.setCookie=function(name, value, days){ 
+var expireDate = new Date();
+
+var expstring=expireDate.setDate(expireDate.getDate()+parseInt(days));
+document.cookie = name+"="+value+"; expires="+expireDate.toGMTString()+"; path=/";
+}
+
+lastvisit.showmessage = function() {
+var wh = new Date();
+if (lastvisit.getCookie("visitc") == "") { 
+lastvisit.setCookie("visitc", wh, days); 
+document.write(firstvisitmsg);
+}
+
+else {
+var lv = lastvisit.getCookie("visitc");
+var lvp = Date.parse(lv);
+var now = new Date();
+now.setTime(lvp);
+var day = new Array("Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat");
+var month = new Array ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+var dd = now.getDate();
+var dy = now.getDay();
+dy = day[dy];
+var mn = now.getMonth();
+mn = month[mn];
+yy = now.getFullYear();
+var hh = now.getHours();
+var ampm = "AM";
+if (hh >= 12) {ampm = "PM"}
+if (hh >12){hh = hh - 12};
+if (hh == 0) {hh = 12}
+if (hh < 10) {hh = "0" + hh};
+var mins = now.getMinutes();
+if (mins < 10) {mins = "0"+ mins}
+var secs = now.getSeconds();
+if (secs < 10) {secs = "0" + secs}
+var dispDate = dy + ", " + mn + " " + dd + ", " + yy + " " + hh + ":" + mins + ":" + secs + " " + ampm
+document.write(lastvisit.subsequentvisitmsg.replace("\[displaydate\]", dispDate))
+}
+
+lastvisit.setCookie("visitc", wh, days);
+
+}
+
+lastvisit.showmessage();
+
+</script>
     <div>
       <h1>Knit Projects</h1>
       <a class="example-image-link" href="https://images4-f.ravelrycache.com/uploads/PetiteKnitDK/922021619/ingrid_sweater_man12_small2.JPG" data-lightbox="example-set" data-title="Ingrid Sweater"><img class="Ingrid Sweater" src="https://www.petiteknit.com/cdn/shop/products/ingridsweaterman16_1500x1500.jpg?v=1682341051" width=300px alt="Sweater"/></a>
@@ -42,5 +125,7 @@
       <a class="example-image-link" href="https://www.novemberknits.com/cdn/shop/products/Emiliemaries2_289c8c81-5a52-4301-850d-b77f7df7f0fd_1200x1200.jpg?v=1677401147" data-lightbox="example-set" data-title="Iben Scarf"><img class="example-image" src="https://www.novemberknits.com/cdn/shop/products/Emiliemaries1_41598c58-f85b-4566-a1da-9d2ef4b8d57a_1200x1200.jpg?v=1677401147" width=300px alt="" /></a>
       <a class="example-image-link" href="https://www.petiteknit.com/cdn/shop/products/mobysweater17_2b00330a-4131-41f3-b3df-59168e341763_1500x1500.jpg?v=1664456411" data-lightbox="example-set" data-title="Moby Sweater"><img class="example-image" src="https://images4-f.ravelrycache.com/uploads/PetiteKnitDK/878285732/moby_sweater15_small2.JPG" width=300px alt="" /></a>
     </div>
+    <h2> Listen to Some Jazz while you knit </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VW-Caeb_0OU?si=LHzsMQmXlWe6obLr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <script src="dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
